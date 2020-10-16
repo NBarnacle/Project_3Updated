@@ -1,0 +1,306 @@
+body{
+padding:0;
+margin:0;
+font-family:roboto;
+}
+.top{
+background-color:rgb(30, 30, 54);
+width:100%;
+text-align:center;
+height:50px;
+margin-bottom:5%;
+}
+.top h1{
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:22px;
+margin-top:0px;
+}
+.text p{
+font-size:18px;
+color:grey;
+
+}
+.text{
+    
+    width:90%;
+    margin-left:5%;
+    text-align:center;
+    margin-bottom:5%;
+}
+.textleft p{
+    font-size:18px;
+    color:grey;
+    
+    }
+    .textleft{
+        
+        width:90%;
+        margin-left:5%;
+        text-align:left;
+        margin-bottom:5%;
+    }
+    .textmid p{
+        font-size:18px;
+        color:grey;
+        
+        }
+        .textmid{
+            
+            width:90%;
+            margin-left:5%;
+            text-align:center;
+            margin-bottom:50%;
+        }
+
+.bold{
+    border:2px solid black;
+}
+.thin{
+    border:1px solid black;
+    
+}
+fieldset{
+    border-style: hidden;
+    width:100%;
+}
+input[type=text]{
+border-radius: 5px;
+border-style:hidden;
+}
+input[type=text]:focus{
+    background-color:lightyellow;
+    }
+input[type=email]{
+    border-radius: 5px;
+    border-style:hidden;
+    }
+    input[type=email]:focus{
+        background-color:lightyellow;
+        }
+    input[type=tel]{
+        border-radius: 5px;
+        border-style:hidden;
+        }
+        input[type=tel]:focus{
+            background-color:lightyellow;
+            }
+input[type=checkbox]{
+    border-radius: 5px;
+    border-style:hidden;
+    vertical-align: baseline;
+    position:absolute;
+    right:50%;
+    }
+
+input[type=radio]{
+     border-radius: 5px;
+    border-style:hidden;
+    background-color:lightblue;
+    position:absolute;
+    right:50%;
+        }
+
+input[type=submit]{
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    margin-top:5%;
+    padding:5%;
+    width:70%;;
+    border-radius:5px;
+    border-style:hidden;
+    margin-left:15%;
+    text-align: center;
+    background-color: aquamarine;
+}
+input:focus{
+    border-style:hidden;
+    background-color:yellow;
+  }
+.flex select{
+    margin-bottom:5%;
+    width:88%;
+    padding:4%;
+    background-color:#f7f7f7;
+    border-radius:5px;
+    border-style:hidden;
+   
+
+   }
+   legend{
+       font-size:24px;
+    margin-bottom:3%;
+   }
+
+.flex{
+display:flex;
+flex-direction: column;
+
+
+} 
+.inner{
+    width:100%;
+    
+}
+
+
+.flex input[type="checkbox"]{
+        margin-bottom:5%;
+    }
+.flex label{
+   margin-bottom:5%;
+   
+    
+    }
+
+.flex input{
+    padding:4%;
+    width:78%;
+    background-color:#f7f7f7;
+    margin-bottom:2%;
+    text-align:left;
+    }
+    .area{
+        width:90%;
+        background-color:#f7f7f7;
+        margin-bottom:2%;
+        margin-left:5%;
+        text-align:left;
+        border-style:hidden;
+        border-radius:5px;
+        padding-top:2.5%;
+        padding-bottom:2.5%;
+        }
+   
+.zip{
+ max-width:20%;
+ 
+}
+li label{
+    margin-left:20%;
+}
+li{
+   list-style: none;
+}
+.d{
+    border-style: hidden;
+    
+    
+    margin-left:0;
+
+}
+
+
+
+.ziplabel{
+  margin-right:90%; 
+}
+
+
+
+@media (min-width:768px){
+    .j{
+        font-size:18px;
+        color:grey;
+        text-align: left;
+        margin-left: 5%;
+        margin-top:3%;
+    }
+   .text{
+       width:70%;
+       margin-left:15%;
+   }
+
+    .flex{
+       max-width:75%;
+        display:flex;
+        margin-left:15%;
+        flex-wrap:wrap;
+      
+        flex-direction: row; 
+    
+       
+        
+        } 
+        
+        .marg{
+            margin-left:10%;
+        }
+        .d{
+            border-style: hidden;
+            
+            width:100%;
+          
+        }
+        .flex label{
+           
+            margin-right:5%;
+        }
+        .flex input{
+            width:60%;
+            margin-bottom:5%;
+            margin-left:auto;
+            padding:2%;
+           
+            } 
+           
+
+         
+            .top h1{
+                padding-top:0%;
+                
+            }
+           .textleft{
+               width:70%;
+              
+           }
+           
+           .city{
+
+            margin-left:9%;
+            width:60%;
+           }
+           
+        .thin{
+            width:70%;
+        }
+        .state{
+            
+               width:63%;
+               
+           }
+       
+           .flex select{
+            width:65%;
+            margin-left:7%;
+            margin-bottom:5%;
+            flex-basis:74%;
+            padding:2%;
+           
+
+           }
+           .area{
+               flex-basis:50%;
+              
+           }
+         
+           input[type=submit]{
+            font-size:30px;
+            font-family:'Times New Roman', Times, serif;
+            color:white;
+            margin-top:5%;
+            padding:2.5%;
+            width:70%;
+            text-align: center;
+            border-radius:5px;
+            border-style:hidden;
+            margin-left:15%;
+            background-color:aquamarine;
+        }
+        }
+   
+        
+
